@@ -1,0 +1,123 @@
+.navbar {
+    height: 74px;
+    padding: 30px, 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+       rgba(0, 0, 0, 0.2) 0px -3px 0px inset;  
+    color: black;
+    padding: 0.5rem 0.1rem;
+    /* position: fixed; */
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 0.5rem;
+}
+.nav-item {
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0.1rem;
+    display: block;
+    width: 100%;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 30%;
+    margin-left: 20px;
+    backface-visibility: hidden;
+}
+
+.hamburger {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #283b8b;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+  }
+
+  .hamburger:hover {
+    background-color: #2642af;
+  }
+
+  @media screen and (max-width: 768px){
+    .navbar {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+       rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+       rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .nav-list {
+        /* display: none;
+        display: block;
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        top: 80px;
+        left: 40%;
+        height: calc(100vh - 77px);
+        align-items: center; */
+        position: absolute;
+        top: -1000px;
+        left: 0;
+        flex-direction: column;
+        width: 99.5%;
+        height: calc(100vh - 77px);
+        transition: 0.7s;
+        z-index: 99;
+        background-color: gray;
+        /* background-color: white; */
+        /* border-top: 1px solid black; */
+    }
+
+
+    .nav-item {
+        /* text-align: start;
+        margin: 0;
+        padding: 1rem, 0;
+        */
+        text-align: center;
+        display: inline-flex;
+        margin: 0;
+    }
+
+    .nav-link {
+        color: black;
+        width: 100%;
+        padding: 1.2rem 0;
+        transition: 0.7s;
+    }
+
+    .nav-item:hover {
+        background-color: azure;
+    }
+
+    .nav-list.active {
+        top: 75px;
+    }
+
+    
+  }

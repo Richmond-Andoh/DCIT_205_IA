@@ -1,0 +1,9 @@
+.container-fluid {
+    background-color: lightblue;
+    text-align: center;
+    margin: auto;
+}
+
+.hero-section {
+    height: 100vh;
+}
