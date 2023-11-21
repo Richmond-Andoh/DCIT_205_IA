@@ -53,7 +53,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <hr />
+                <hr className='hr'/>
                 <div className="footer_row2">
                     <div className="col">
                         <h2>Newsletter</h2>
