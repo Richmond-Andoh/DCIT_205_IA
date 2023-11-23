@@ -1,6 +1,20 @@
 import './Footer.css';
 
 const Footer = () => {
+
+    // document.addEventListener('DOMContentLoaded', function () {
+    //     window.addEventListener('scroll', function () {
+    //       var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+      
+    //       if (scrollPosition > 100) {
+    //         document.querySelector('.scroll-top-wrapper').classList.add('show');
+    //       } else {
+    //         document.querySelector('.scroll-top-wrapper').classList.remove('show');
+    //       }
+    //     });
+    //   });
+      
+
     return(
         <footer className="bg-dark text-center text-white">
             <div class="p-4 footer">
@@ -122,6 +136,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+
         </footer>
     )
 }
