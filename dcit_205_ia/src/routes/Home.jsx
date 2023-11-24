@@ -12,30 +12,30 @@ const Home = () => {
     
     const[count, setCount] = useState(1);
     
-    useEffect(() => {
-        // Increment to 70000 when the page is loaded
-        const initialCounter = setInterval(() => {
-        setCount((prevCount) => {
-            if (prevCount < 7000) {
-            return prevCount + 1;
-            } else {
-            clearInterval(initialCounter); // Stop the counter when it reaches 70000
-            return prevCount;
-            }
-        });
-        }, 100);
+    // useEffect(() => {
+    //     // Increment to 70000 when the page is loaded
+    //     const initialCounter = setInterval(() => {
+    //     setCount((prevCount) => {
+    //         if (prevCount <= 7000) {
+    //         return prevCount + 1;
+    //         } else {
+    //         clearInterval(initialCounter); // Stop the counter when it reaches 70000
+    //         return prevCount;
+    //         }
+    //     });
+    //     }, 100);
 
         // Increment every second using setInterval
-        const intervalCounter = setInterval(() => {
-        setCount((prevCount) => prevCount + 1);
-        }, 10);
+        // const intervalCounter = setInterval(() => {
+        // setCount((prevCount) => prevCount + 1);
+        // }, 10);
 
         // Clean up the interval when the component is unmounted
-        return () => {
-        clearInterval(initialCounter);
-        clearInterval(intervalCounter);
-        };
-    }, []);
+    //     return () => {
+    //     clearInterval(initialCounter);
+    //     clearInterval(intervalCounter);
+    //     };
+    // }, []);
 
 
     const style = {

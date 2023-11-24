@@ -28,3 +28,8 @@ body {
 article h1 {
   margin: 1rem 0;
 }
+
+p {
+  font-size: 18px;
+  opacity: 0.9;
+}
