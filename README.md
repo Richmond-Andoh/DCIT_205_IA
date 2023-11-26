@@ -35,6 +35,7 @@ To clone and set up the project, follow these steps:
 4. Resources: Library, labs, and other department resources.
 5. Events: Upcoming events and activities.
 6. Contact: Contact details for inquiries.
-Feel free to explore additional pages such as Student Projects, Staff Profiles, or any other page of your choice.
+
+<p>Feel free to explore additional pages such as Student Projects, Staff Profiles, or any other page of your choice.</p>
 
 ## Screenshots
