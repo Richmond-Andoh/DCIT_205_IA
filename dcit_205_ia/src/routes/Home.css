@@ -93,8 +93,8 @@
 .statistics {
     width: 100%;
     height: 250px;
-    background-color: black;
-    opacity: 0.65;
+    background-color: darkblue;
+    opacity: 0.9;
     color: white;
     margin-top: 3rem;
 }

@@ -1,0 +1,150 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+
+.mission-container {
+    width: 100%;
+    background-color: darkblue;
+    padding: 150px 10px;
+    /* height: 300px; */
+    /* position: relative; */
+    margin-bottom: 30rem;
+
+}
+
+.mission  {
+    text-align: start;
+    color: #fff;
+}
+
+
+.mission p {
+    padding: 10px 0;
+    /* max-width: 400px; */
+    font-size: 15px;
+}
+
+.contact-container {
+    width: 70%;
+    position: absolute;
+    top: 60%;
+    right: 15%;
+    margin-left: 3rem;
+    padding: 0rem 1.5rem;
+    background-color: whitesmoke;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    /* z-index: 9999; */
+    /* margin-bottom: 10rem; */
+}
+
+.contact-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.contact-container h1 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    /* color: #fff; */
+    /* color: #fff; */
+}
+
+.contact-container form {
+    /* width: 500px; */
+    padding: 20px;
+    /* color: #fff; */
+}
+
+.name-label, .email-lable, .subject-lable, .message-lable {
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-group label {
+    padding: 3px 0;
+}
+.form-group input, textarea {
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+.submit-lable button {
+    margin-top: 20px;
+    border: none;
+    background-color: darkblue;
+    border-radius: 40px;
+    padding: 13px 0;
+}
+.submit-lable button:hover{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.submit-lable i {
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    color: #fff;
+
+}
+
+.contact-info {
+    opacity: 0.8;
+}
+
+.contact-info-container {
+    padding: 0.5rem;
+} 
+
+.contact-info-container h1 {
+    padding: 0.5rem 0;
+}
+
+.contact-info-container p {
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+}
+
+.contact-info-container i {
+    color: darkblue;
+    padding: 0 10px;
+}
+
+.visit {
+    width: 100%;
+    text-align: center;
+    margin: 8rem 0;
+    color: darkblue;
+}
+
+.visit i {
+   font-size: 2rem;
+   color: darkblue;
+   margin-top: 1rem;
+}
+.social-media {
+    margin-top: 6rem;
+}
+
+.social-media span i {
+    font-size: 2rem;
+    color: darkblue;
+    padding: 1rem 10px;
+}
+.visit h3 {
+    margin: 3rem 0;
+}
+.map-container {
+    width: 100%;
+    height: 650px;
+    z-index: 9999;
+}
+
+
+@media screen and (max-width: 786px){
+    .contact-row {
+        grid-template-columns: 1fr;
+    }
+}

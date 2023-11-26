@@ -2,7 +2,7 @@ import './About.css'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import home from '../images/home.jpg';
-// import Rich from '../images/Rich.jpg'
+import Rich from '../images/Rich.jpg'
 import Organization from '../images/Organization.jpg';
 import Distance from '../images/Distance.jpg'
 const About = () => {

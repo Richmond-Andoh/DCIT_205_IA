@@ -48,7 +48,9 @@ const Home = () => {
     // }
     return(
         <div>
-            <Navbar />
+            <div>
+                <Navbar />
+            </div>
             <div className="container-fluid hero">
                 {/* <div className="hero-image">
                     <img src={home} style={hero} alt="hero image" />
@@ -85,8 +87,9 @@ const Home = () => {
                             <div className="col"></div>
                          </div>
                     </div> */}
-                </section>
-                <section className="statistics">
+            </section>
+            
+            <section className="statistics">
                     <div className="container-fluid ">
                         <div className="row alumni">
                             <div className="col">
@@ -101,7 +104,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+            </section>
 
                 <section className="gateway">
                     <div className="gateway-title container-fluid">

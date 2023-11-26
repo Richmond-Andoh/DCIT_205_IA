@@ -1,4 +1,5 @@
 import './Footer.css';
+import brand from '../images/brand.png'
 
 const Footer = () => {
 
@@ -84,17 +85,20 @@ const Footer = () => {
                         <ul>
                             <li>
                               <span>
-                                <i class="fa fa-phone" aria-hidden="true"></i>
+                              <i class="bi bi-telephone-forward"></i>
+                                +233 501 382 03
                               </span>
                             </li>
                             <li>
                               <span>
-                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <i class="bi bi-telephone-forward"></i>
+                                +233 559 145 698
                               </span>
                             </li>
                             <li>
                               <span>
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                              <i class="bi bi-envelope-at-fill"></i>
+                                dcs@ug.edu.gh
                               </span>
                             </li>
                         </ul>
@@ -115,24 +119,27 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer_row3">
+                    <div className="footer-brand">
+                      <img src={brand} alt="" />
+                    </div>
                     <div className="col">
                         <p>
                           Copyright ©2023 All rights reserved
                         </p>
                     </div>
                     <div className="col media">
-                        <a href="#">
-                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                        </a>
+                        <span>
+                           <i class="bi bi-facebook"></i>
+                        </span>
+                        <span>
+                           <i class="bi bi-twitter"></i>
+                        </span>
+                        <span>
+                           <i class="bi bi-linkedin"></i>
+                        </span>
+                       <span>
+                           <i class="bi bi-instagram"></i>
+                       </span>
                     </div>
                 </div>
             </div>

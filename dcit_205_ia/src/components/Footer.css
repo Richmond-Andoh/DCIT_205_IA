@@ -1,4 +1,6 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"); */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
 
 
 .footer {
@@ -83,14 +85,14 @@
 
   .footer ul li {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     padding: 0.5rem 10px;
   }
   
   .footer_row1 h2 {
     color: #fff;
     padding-left: 15px;
-    margin: 10px 0px;
+    margin: 30px 0px;
   }
 
   form {
@@ -117,6 +119,12 @@
   .input {
     display: flex;
     /* align-items: center; */
+  }
+
+  .media i {
+      font-size: 1rem;
+      padding: 20px 3px;
+      text-align: center;
   }
   
   
@@ -174,7 +182,7 @@
   .footer_row2 h2 {
     color: #fff;
     padding: 0.5rem 10px;
-    margin-top: 15px;
+    margin-top: 40px 15px;
   }
 
   .footer_row2 ul {
@@ -186,13 +194,26 @@
     padding: 10px 10px;
   }
 
+  .footer_row2 i {
+    padding-right: 8px;
+  }
+
   .footer_row3 {
-    display: flex;
+    /* display: flex; */
     color: #fff;
     margin-top: 50px;
     justify-content: space-between;
   }
+
+  .footer_row3 img {
+    width: 100%;
+    height: 200px;
+  }
  
+  .footer_row3 i {
+    color: #fff;
+  }
+
   .hr {
     width: 90%;
     margin-top: 20px;
