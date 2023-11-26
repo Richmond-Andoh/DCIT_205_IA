@@ -50,5 +50,6 @@ To clone and set up the project, follow these steps:
 <p>Feel free to explore additional pages such as Student Projects, Staff Profiles, or any other page of your choice.</p>
 
 ## Screenshots
-<h4?>Contact Page</h4>
+<h2>Contact Page</h2>
+
 <img src='./dcit_205_ia/src/images/screen-contact.JPG' />
