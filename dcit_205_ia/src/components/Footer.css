@@ -16,6 +16,10 @@
     flex-direction: column;
   }
 
+.footer-brand img {
+  width: 40%;
+}
+
 .wave {
     position: absolute;
     top: -100px;

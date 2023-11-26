@@ -120,7 +120,7 @@ const Footer = () => {
                 </div>
                 <div className="footer_row3">
                     <div className="footer-brand">
-                      <img src={brand} alt="" />
+                      {/* <img src={brand} alt="" /> */}
                     </div>
                     <div className="col">
                         <p>
