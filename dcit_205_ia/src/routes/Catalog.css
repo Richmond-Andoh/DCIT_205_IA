@@ -1,0 +1,170 @@
+
+
+.hero-session {
+    width: 100%;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    margin: auto;
+  }
+  
+  .hero-session::before {
+    content: "";
+    background-image: url("https://legonconnect.com/wp-content/uploads/2021/02/Theres-No-Protocol-Admission-Anywhere-Write-NovDec-If-Your-Grades-Are-Not-Good.jpg");
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .hero-session h1 {
+    color: white;
+    text-align: center;
+    padding-top: 15rem;
+    font-size: 2.5rem;
+  }
+  
+  /* .program-overview {
+    width: 100%;
+  }
+  
+  .degree-programs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .all-programs {
+    border: 1px solid black;
+    margin: 2rem 0;
+  }
+  
+  .program-title {
+    color: white;
+    background: darkblue;
+  } */
+  
+  .short-courses {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  
+  .short-courses-title {
+    text-align: center;
+    margin: 4rem 0;
+    color: darkblue;
+    font-weight: bolder;
+  }
+  .short-courses .card {
+    color: #fff;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 32%;
+    margin: 2rem 15px;
+  }
+  
+  .short-courses .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* .short-courses .content {
+    padding: 2px 16px;
+  } */
+  
+  .explore {
+    background: darkblue;
+    opacity: 0.87;
+    color: whitesmoke;
+    margin: 3rem 0;
+  }
+  
+  .explore h1, h2, h3 {
+    margin: 1rem 0;
+  }
+  .opportunities {
+    display: flex;
+    margin: auto;
+  }
+  
+  .opportunities div {
+    margin: 2rem 0;
+    width: 30%;
+    padding: 1rem 2rem;
+  }
+  
+  .internship {
+    display: flex;
+    margin: auto;
+  }
+  
+  .internship div {
+    margin-top: 2rem ;
+    width: 30%;
+    padding: 3rem 2rem;
+  }
+
+
+  .programs {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  
+  .short-courses-title {
+    text-align: center;
+    margin: 4rem 0;
+    color: darkblue;
+    font-weight: bolder;
+  }
+  .programs .card {
+    /* color: #fff; */
+    opacity: 0.8;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    width: 32%;
+    margin: 2rem 15px;
+  }
+  
+  .program-title {
+    background-color: darkblue;
+    color: #fff;
+    opacity: 0.85;
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+  .programs .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .programs .card .content {
+    padding: 3rem 1.5rem;
+  }
+
+  .programs .card .content button {
+    padding: 1rem 1.5rem;
+    border: none;
+    color: #fff;
+    background-color: darkblue;
+    opacity: 0.8;
+
+  }
+
+  .programs .card .content .btn {
+    text-align: center;
+  }
+  .programs .card .content button:hover {
+    cursor: pointer;
+    transition: 1s ease-out;
+    background-color: darkblue;
+  }
+  .map-container {
+    width: 100%;
+    height: 650px;
+    z-index: 9999;
+}

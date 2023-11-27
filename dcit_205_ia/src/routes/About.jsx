@@ -6,16 +6,14 @@ import Rich from '../images/Rich.jpg'
 import Organization from '../images/Organization.jpg';
 import Distance from '../images/Distance.jpg'
 const About = () => {
-  
+
    return (
     <div>
         <div>
             <Navbar />
-        </div>            
-        <div className="container-fluid">
-            <div className="img section1">
-                {/* <img src={Rich} alt="richmond image" /> */}
-            </div>
+        </div>
+        <div class="about-session">
+           <h1>ABOUT US</h1>
         </div>
 
         <div className='container welcome-text'>
@@ -24,21 +22,21 @@ const About = () => {
                 </h1>
                 <p>
                     The Computer Science Department of the University of Ghana aspires to
-                     produce leaders who will shape the future. We believe that CS graduates 
+                     produce leaders who will shape the future. We believe that CS graduates
                      must be innovative, out-of-the-box thinkers with a social responsibility mission.
-                      They must develop multidisciplinary abilities 
-                    as well as the capacity and motivation to collaborate with others. 
+                      They must develop multidisciplinary abilities
+                    as well as the capacity and motivation to collaborate with others.
                     The range of courses available in the department and the skills acquired
-                     by students enable them to find employment in many diverse fields of the 
-                     economy and prepare our graduates for the computing industry, working in 
-                     a project team (or research and development team), and to enable the 
+                     by students enable them to find employment in many diverse fields of the
+                     economy and prepare our graduates for the computing industry, working in
+                     a project team (or research and development team), and to enable the
                      graduate to bring specialist skills to that team. The course also provides
                       the platform for further study or research through exposure to established
-                       and emerging technologies and methods, and to active fields of research 
+                       and emerging technologies and methods, and to active fields of research
                        in Computer Science.
                 </p>
         </div>
-        
+
 
         <div class="container1">
                 <div class="column">
@@ -46,12 +44,12 @@ const About = () => {
                         <h1>Our Organization</h1>
                         <p>
                         The University of Ghana is one of the Africa's most preeminent
-                         public universities. Our impact on individuals, our region and 
-                         the world is profound. whether we are launching young people into 
-                         a boundless future or confronting the grand challenges of our time 
-                         {/* through dauntless research. UG educates more than 38,000students annually, 
-                         with approximately 2.64% being computer science students. We turn ideas into 
-                         impact and transform the world around us. 
+                         public universities. Our impact on individuals, our region and
+                         the world is profound. whether we are launching young people into
+                         a boundless future or confronting the grand challenges of our time
+                         {/* through dauntless research. UG educates more than 38,000students annually,
+                         with approximately 2.64% being computer science students. We turn ideas into
+                         impact and transform the world around us.
                         For more about our impact, visit our news site, UG News. */}
                         </p>
                     </div>
@@ -67,15 +65,15 @@ const About = () => {
                     <div>
                         <h1>Our Commuity</h1>
                         <p>
-                            If you are inspired by a big challenge, you've come to the right place! 
-                            The computer science community at the univrersity of Ghana encourages it's 
+                            If you are inspired by a big challenge, you've come to the right place!
+                            The computer science community at the univrersity of Ghana encourages it's
                             people to be vibrant and brave
                             in taking on new challenges that push boundries beyond imagination.
                         </p>
                     </div>
                 </div>
         </div>
-        
+
         <div class="container2">
                 <div class="column">
                     <div>
@@ -87,8 +85,8 @@ const About = () => {
                     <p>
                         Experience a UG-CDCD classroom from wherever you are.
                         Take advantage of real-time lectures and personal interaction
-                        with professors through a suite of online delivery options, 
-                        customizing your degree to fit your schedule. Our online classroom 
+                        with professors through a suite of online delivery options,
+                        customizing your degree to fit your schedule. Our online classroom
                         maintains the same level of academic rigor, while providing students
                         with more ways of learning.
                     </p>
@@ -140,9 +138,9 @@ const About = () => {
                 </div>
             </div>
         </div>
-        
-        
-       
+
+
+
        <div>
         <Footer />
        </div>

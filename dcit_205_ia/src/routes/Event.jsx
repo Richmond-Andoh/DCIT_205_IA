@@ -8,37 +8,9 @@ const Event = () => {
             <div>
               <Navbar />
             </div>
-            <div className="container event-title">
-                <div className="column">
-                    <h1>NEWS $ EVENT</h1>
-                    <p>
-                        Welcome to the Department of Computer Science
-                    </p>
-                </div>
-                {/* <div className="column">
-                    <img src="https://blog.getrooms.co/wp-content/uploads/2021/01/k-159-rung-6026-300x200.jpg" alt="" />
-                </div> */}
+            <div class="event-session">
+               <h1>NEWS $ EVENTS</h1>
             </div>
-
-            <div className="container events">
-                    <span>EVENTS</span>
-                    <span> <hr /></span>
-            </div>
-
-            <div className='iframe-video'>
-                <iframe width="100%" height="100%"
-                    src="https://play.viostream.com/iframe/s0m3m3d14?playerKey=s0m3p14y3r"
-                    frameborder="0" allowfullscreen="">
-                </iframe>
-            </div>
-
-
-
-
-
-
-
-
 
 
             <div className="container lectures">

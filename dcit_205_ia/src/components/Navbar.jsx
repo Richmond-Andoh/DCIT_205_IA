@@ -23,7 +23,7 @@ const Navbar = () => {
                 <div class="searchBox">
                     <input class="searchInput"type="text" name="" placeholder="Search" />
                     <button class="searchButton" href="#">
-                       <i class="fa fa-search" aria-hidden="true"></i>
+                       <i class="bi bi-search"></i>
                     </button>
                 </div>
             </nav>

@@ -11,6 +11,7 @@ const Contact = () => {
             <div>
                 <Navbar />
             </div>
+            
             <div className="container-fluid mission-container">
                 <div className="mission">
                     <h2>
