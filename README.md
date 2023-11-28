@@ -33,17 +33,24 @@ To clone and set up the project, follow these steps:
 
 ## Pages
 
-1. Home: Overview of the Computer Science Department.
+1. **Home**: Overview of the Computer Science Department.
 
-2. About: Information about the department's history and mission.
+2. **About**: Information about the department's history and mission.
 
-3. Catalog: Courses offered and academic programs.
+3. **Catalog**: Courses offered and academic programs.
 
-4. Resources: Library, labs, and other department resources.
+4. **Resources**: Library, labs, and other department resources.
 
-5. Events: Past and Upcoming events and activities.
+5. **Events**: Past and Upcoming events and activities.
 
-6. Contact: Contact details for inquiries.
+6. **Contact**: Contact details for inquiries.
+
+7. **Student Projects**: Showcase innovative projects by students, highlighting their creativity and skills.
+
+8. **Staff Profiles**: Introduce faculty and staff members with brief biographies, academic backgrounds, and areas of expertise.
+
+9. **Faqs**: Frequently Asked Questions about the department and its offerings.
+8. **Gallery**: Visual showcase of events, projects, and activities within the department.
 
 <p>Feel free to explore additional pages such as Student Projects, Staff Profiles, or any other page of your choice.</p>
 
