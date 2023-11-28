@@ -1,79 +1,42 @@
-/* .hero-image {
-    height: 5rem;
-} */
-/* .hero-image img{
-    width: 100%;
-    height: 10rem;
-} */
 
-.container {
-    position: relative;
-    width: 280px;
-    margin: 100px auto 0 auto;
-    perspective: 1000px;
+ .slider-container::after {
+      background: black;
+      z-index: 78;
+ }
+
+  .slider-container {
+    max-width: 100%;  
+    background: black;
+    z-index: 78;
+
+  }
+
+  .welcome-title {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    text-align: center;
+    color: #fff;
+
   }
   
-  .carousel {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d; 
-    animation: rotate360 60s infinite forwards linear;
-  } 
-   .carousel__face { 
-    position: absolute;
-    width: 300px;
-    height: 187px;
-    top: 20px;
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    z-index: 1;
+  }
+  
+  .slick-prev {
     left: 10px;
-    right: 10px;
-    background-size: cover;
-    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
-    display: flex;
   }
   
-  /* span {
-    margin: auto;
-  } */
-  
-  
-  .carousel__face:nth-child(1) {
-    background-image: url("https://dcs.ug.edu.gh/img/about-img2.jpeg");
-    transform: rotateY(  0deg) translateZ(430px); }
-  .carousel__face:nth-child(2) { 
-    background-image: url("https://i0.wp.com/raphsark.com/wp-content/uploads/2022/06/group-five-african-college-students-spending-time-together-campus-university-yard-black-afro-friends-studying-bench-219663775.jpg?fit=800%2C532&ssl=1");
-      transform: rotateY( 40deg) translateZ(430px); }
-  .carousel__face:nth-child(3) {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOvsovl0ypQId2S9zNp9NhUN9wMdn0AHgXzEhJfAk6_5SbCm8lzT5LQdjpglAupAwGZ3E&usqp=CAU");
-    transform: rotateY( 80deg) translateZ(430px); }
-  .carousel__face:nth-child(4) {
-    background-image: url("https://dcs.ug.edu.gh/img/gallery/PHOTO-2019-03-04-14-42-37.jpg");
-    transform: rotateY(120deg) translateZ(430px); }
-  .carousel__face:nth-child(5) { 
-    background-image: url("https://media.licdn.com/dms/image/C4E12AQEqcF0l1JXFcw/article-cover_image-shrink_720_1280/0/1634628737732?e=2147483647&v=beta&t=jTI5Iqku-TkRHZEdMe_-Ts7sb0o7ykQu8KjUE2p-C9Y");
-   transform: rotateY(160deg) translateZ(430px); }
-  .carousel__face:nth-child(6) { 
-    background-image: url("https://images.yen.com.gh/images/3o3bpd1omvrl1os97.jpg?imwidth=900");
-   transform: rotateY(200deg) translateZ(430px); }
-  .carousel__face:nth-child(7) { 
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1mLGBkq_NaCaID6z-B1CXNIr-77Ji4xj8T81MoHDNCISbk9Ul7JdJLJZi_sBEuw-95bQ&usqp=CAU");
-   transform: rotateY(240deg) translateZ(430px); }
-  .carousel__face:nth-child(8) {
-    background-image: url("https://pbs.twimg.com/media/EBZ6b6xXUAIjz9_.jpg");
-    transform: rotateY(280deg) translateZ(430px); }
-  .carousel__face:nth-child(9) {
-    background-image: url("https://www.ashesi.edu.gh/images/news_events/news/2018/October/EboYamoah/Ashesi_EboYamoah_inline3.jpg");
-    transform: rotateY(320deg) translateZ(430px); }
-  
-  
-  
-  @keyframes rotate360 {
-    from {
-      transform: rotateY(0deg);
-    }
-    to {
-      transform: rotateY(-360deg);
-    }
+  .slick-next {
+    right: 10px;
+  }
+
+  .slider-container img {
+    width: 100%;
+    height: 600px;
   }
   
   .mission {
@@ -92,11 +55,10 @@
 
 .statistics {
     width: 100%;
-    height: 250px;
     background-color: darkblue;
     opacity: 0.9;
     color: white;
-    margin-top: 3rem;
+    padding: 6rem 3rem;
 }
 .alumni {
     display: flex;
@@ -109,12 +71,13 @@
 
 .alumni h1 {
     /* text-align: center; */
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 3rem 0 0 0;
 }
 
 .gateway {
     margin-top: 3.5rem;
+    width: 100%;
 }
 
 
@@ -145,7 +108,7 @@
 
 .card {
     margin-top: 3rem;
-    width: 30rem;
+    width: 33rem;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2)
 }
@@ -155,8 +118,26 @@
     height: auto;
 }
 
+.gateway-link {
+  color: red;
+
+}
+
+.gateway-link a {
+  text-decoration: none;
+  color: red;
+}
+
 .card-content {
-    padding: 2rem 3px;
+    padding: 2rem 1rem;
+}
+
+.card-content h1 {
+  color: darkblue;
+}
+
+.card-content p {
+  padding: 1rem 3px;
 }
 
 .section3 {
@@ -179,7 +160,7 @@
     font-size: 19px;
     line-height: 24px;
     width: 90%;
-    padding: 1rem 10px;
+    padding: 1rem 2rem;
 }
 
 .section3 img {
@@ -245,6 +226,7 @@ article {
   }
   
   article img {
+    width: 100%;
     max-width: 100%;
     transform-origin: center;
     transform: scale(var(--img-scale));

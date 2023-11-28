@@ -19,7 +19,7 @@
     top: 20%;
     right: 2%;
     /* transform:  translate(-50%,50%); */
-    background: #2f3640;
+    background: darkblue;
     height: 60px;
     border-radius: 40px;
     padding: 10px;
@@ -44,7 +44,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #2f3640;
+    background: darkblue;
     display: flex;
     justify-content: center;
     align-items: center;

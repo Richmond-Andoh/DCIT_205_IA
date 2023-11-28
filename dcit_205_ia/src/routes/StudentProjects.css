@@ -27,7 +27,9 @@
     font-size: 2.5rem;
   }
 
-
+.pro-title {
+  text-align: center;
+}
 
   .project-container {
     width: 100%;

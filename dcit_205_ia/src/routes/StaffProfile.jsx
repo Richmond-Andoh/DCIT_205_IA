@@ -45,52 +45,18 @@ const StaffProfile = () => {
                 </div>
 
                 <div className="staff-card">
-                    <img className="staff-avatar" src="staff3.jpg" alt="Staff 3" />
+                    <img className="staff-avatar" src="https://media.licdn.com/dms/image/C4E03AQGTpx5t09-ADA/profile-displayphoto-shrink_100_100/0/1595237435787?e=2147483647&v=beta&t=vvGnUcq-qAxieLUpRwZ3X82ZYo1JfSLF8UbTmx2HXMY" alt="Staff 3" />
                     <div className="staff-details">
-                        <h2 className="staff-name">Mark Johnson</h2>
-                        <p className="staff-position">Lecturer</p>
+                        <h2 className="staff-name">Mr. Soli</h2>
+                        <p className="staff-position">Lecturer and Software Engineer</p>
                     </div>
                 </div>
 
-                <div className="staff-card">
-                    <img className="staff-avatar" src="staff3.jpg" alt="Staff 3" />
-                    <div className="staff-details">
-                        <h2 className="staff-name">Mark Johnson</h2>
-                        <p className="staff-position">Lecturer</p>
-                    </div>
-                </div>
 
 
             </div>
 
-            {/* <div class="container staff-container">
-
-                <div className="staff-card">
-                    <img className="staff-avatar" src="staff1.jpg" alt="Staff 1" />
-                    <div className="staff-details">
-                        <h2 className="staff-name">John Doe</h2>
-                        <p className="staff-position">Professor of Computer Science</p>
-                    </div>
-                </div>
-
-                <div className="staff-card">
-                    <img className="staff-avatar" src="staff2.jpg" alt="Staff 2" />
-                    <div className="staff-details">
-                        <h2 className="staff-name">Jane Smith</h2>
-                        <p className="staff-position">Assistant Professor</p>
-                    </div>
-                </div>
-
-                <div className="staff-card">
-                    <img className="staff-avatar" src="staff3.jpg" alt="Staff 3" />
-                    <div className="staff-details">
-                        <h2 className="staff-name">Mark Johnson</h2>
-                        <p className="staff-position">Lecturer</p>
-                    </div>
-                </div>
-
-
-              </div> */}
+           
 
             <div className='map-container'>
                 <MapContainer />

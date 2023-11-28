@@ -13,20 +13,19 @@ const StudentProjects = () => {
                <h1>EXPLORE SOME UNIQUES PROJECTS BY OUR STUDENTS</h1>
             </div>
 
-            {/* <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/_Jdl3SBF1lU?si=MsqSDNDlHXv2HoG2" title='video player' allow="autoplay; " allowfullscreen></iframe>     
-            </div> */}
+
+            <h1 className='pro-title'>Projects</h1>
 
             <div className="container project-container">
-
+                
                 <div className="project-card">
                     <img className="project-screenshot" src="https://www.bcswebsiteservices.com/images/stories/marketing-img/facebook_business_page.jpg" alt="Web Development Project" />
                     <div className="project-details">
                         <h2 className="project-title">Linkedin Clone</h2>
                         <p className="project-description">A dynamic website showcasing innovative web development techniques and technologies.</p>
                         <div className="profile-section">
-                        <p>Project by: John Doe</p>
-                        <p>Student ID: ABC123</p>
+                        <p>Project by: John Bismark</p>
+                        <p>Student ID: 12382932</p>
                         </div>
                     </div>
                 </div>
@@ -37,8 +36,8 @@ const StudentProjects = () => {
                         <h2 className="project-title">Travel Mobile App</h2>
                         <p className="project-description">An interactive mobile application designed for seamless user experience and functionality.</p>
                         <div className="profile-section">
-                        <p>Project by: Jane Smith</p>
-                        <p>Student ID: XYZ456</p>
+                        <p>Project by: Audrey Smith</p>
+                        <p>Student ID: 112427</p>
                         </div>
                     </div>
                 </div>
@@ -50,7 +49,7 @@ const StudentProjects = () => {
                         <p className="project-description">An artificial intelligence project leveraging machine learning algorithms for intelligent decision-making.</p>
                         <div className="profile-section">
                         <p>Project by: Mark Johnson</p>
-                        <p>Student ID: DEF789</p>
+                        <p>Student ID: 11327363</p>
                         </div>
                     </div>
                 </div>
