@@ -74,11 +74,11 @@ To clone and set up the project, follow these steps:
 
 ![Website Screenshot](/dcit_205_ia/src/images/catalogShop-1.JPG)
 
-![Website Screenshot](/dcit_205_ia/src/images/catalogShop-2.JPG)
+![Website Screenshot](/dcit_205_ia/src/images/catalogShot-2.JPG)
 
-![Website Screenshot](/dcit_205_ia/src/images/catalogShop-3.JPG)
+![Website Screenshot](/dcit_205_ia/src/images/catalopShop-3.JPG)
 
-![Website Screenshot](/dcit_205_ia/src/images/catalogShop-4.JPG)
+![Website Screenshot](/dcit_205_ia/src/images/cataloShot-4.JPG)
 
 <h2>Resources Page</h2>
 
@@ -100,9 +100,9 @@ To clone and set up the project, follow these steps:
 
 ![Website Screenshot](/dcit_205_ia/src/images/project1.JPG)
 
-![Website Screenshot](/dcit_205_ia/src/images/project2.JPG)
+![Website Screenshot](/dcit_205_ia/src/images/project.jpg)
 
-![Website Screenshot](/dcit_205_ia/src/images/project3.JPG)
+![Website Screenshot](/dcit_205_ia/src/images/project-2.JPG)
 
 <h2>Staff Profile Page</h2>
 
@@ -112,7 +112,7 @@ To clone and set up the project, follow these steps:
 
 ![Website Screenshot](/dcit_205_ia/src/images/faqs.JPG)
 
-![Website Screenshot](/dcit_205_ia/src/images/faq1.JPG)
+![Website Screenshot](/dcit_205_ia/src/images/faqs1.JPG)
 
 <h2>Gallery Page</h2>
 
