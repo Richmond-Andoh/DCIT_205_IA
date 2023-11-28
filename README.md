@@ -51,19 +51,22 @@ To clone and set up the project, follow these steps:
 
 ## Screenshots
 <h2>Home Page</h2>
-<img src"dcit_205_ia/src/images/home.jpg">
-![Website Screenshot](/relative/path/to/homeShot-1.JPG?raw=true "Optional Title"")
-![Website Screenshot](dcit_205_ia/src/images/homeShot-2.JPG)
+
+![Website Screenshot](/dcit_205_ia/src/images/home.jpg)
+![Website Screenshot](/dcit_205_ia/src/images/homeShot-1.jpg)
+![Website Screenshot](/dcit_205_ia/src/images/homeShot-2.JPG)
 ![Website Screenshot](/dcit_205_ia/src/images/homeShot-3.JPG)
 ![Website Screenshot](/dcit_205_ia/src/images/homeShot-4.jpg)
 ![Website Screenshot](/dcit_205_ia/src/images/homeShot-5.jpg)
 
 <h2>About Page</h2>
+
 ![Website Screenshot](/dcit_205_ia/src/images/aboutShot-1.JPG)
 ![Website Screenshot](/dcit_205_ia/src/images/aboutShot-2.JPG)
 ![Website Screenshot](/dcit_205_ia/src/images/aboutShot-3.JPG)
 
 <h2>Catalog</h2>
+
 ![Website Screenshot](/dcit_205_ia/src/images/catalogShop-1.JPG)
 ![Website Screenshot](/dcit_205_ia/src/images/catalogShop-2.JPG)
 ![Website Screenshot](/dcit_205_ia/src/images/catalogShop-3.JPG)
@@ -74,29 +77,36 @@ To clone and set up the project, follow these steps:
 
 
 <h2>Events Page</h2>
+
 ![Website Screenshot](/dcit_205_ia/src/images/eventShot-1.JPG)
 ![Website Screenshot](/dcit_205_ia/src/images/eventShot-2.JPG)
 
 <h2>Contact Page</h2>
+
 ![Website Screenshot](/dcit_205_ia/src/images/contact1.JPG)
 ![Website Screenshot](/dcit_205_ia/src/images/eventShot-1.JPG)
 
 <h2>Students Projects Page</h2>
+
 ![Website Screenshot](/dcit_205_ia/src/images/project1.JPG)
+
 ![Website Screenshot](/dcit_205_ia/src/images/project2.JPG)
+
 ![Website Screenshot](/dcit_205_ia/src/images/project3.JPG)
 
 <h2>Staff Profile Page</h2>
+
 ![Website Screenshot](/dcit_205_ia/src/images/staff.JPG)
 
 <h2>Faqs Page</h2>
+
 ![Website Screenshot](/dcit_205_ia/src/images/faqs.JPG)
 ![Website Screenshot](/dcit_205_ia/src/images/faq1.JPG)
 
 <h2>Gallery Page</h2>
-![Website Screenshot]("/dcit_205_ia/src/images/gallery.JPG")
-![Website Screenshot]("/dcit_205_ia/src/images/gallery1.JPG")
 
+![Website Screenshot](/dcit_205_ia/src/images/gallery.JPG)
+![Website Screenshot](/dcit_205_ia/src/images/gallery1.JPG)
 
 
 
