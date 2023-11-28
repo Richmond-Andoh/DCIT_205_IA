@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import './Home.css'
 import robot from '../images/robot.jpeg'
 import research from '../images/research.jpg'
-import home from '../images/home.jpg';
 import project from '../images/project.jpg'
 import { useState, useEffect } from "react";
 import Slider from 'react-slick';
@@ -70,10 +69,6 @@ const Home = () => {
         "margin-top": "4rem"
     }
 
-    // const hero = {
-    //     // "width": "100%",
-    //     "height": "40%",
-    // }
     return(
         <div>
             <div>

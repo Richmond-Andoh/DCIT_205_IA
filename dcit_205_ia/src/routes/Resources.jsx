@@ -8,35 +8,87 @@ const Resources = () => {
             <div>
                 <Navbar />
             </div>
-            <div class="container resourses-container">
-                <ul class="resource-list">
-                <li class="resource-item">
-                    <img src="websites.jpg" alt="Websites" class="resource-image" />
-                    <p class="resource-title">Websites</p>
-                    <ul>
-                    <li><a href="https://www.example1.com" target="_blank">Example Website 1</a></li>
-                    <li><a href="https://www.example2.com" target="_blank">Example Website 2</a></li>
-                    </ul>
-                </li>
+            <div class="resources-session">
+               <h1>EXPLORE SOME OF OUR RESOURCES</h1>
+            </div>
+            <div class="container resources-container">
+               <div>
+                  <h1>Undergraduate Resources</h1>
+                  <p>
+                    Bsc-Computer Science <span><i class="bi bi-caret-down"></i></span>
+                  </p>
+                  <hr />
+                  <p>
+                    Five Years Curriculum at a glance <span><i class="bi bi-caret-down"></i></span>
+                  </p>
+                    <hr />
+                  <p>
+                      Computer Science Minor <span><i class="bi bi-caret-down"></i></span>
+                  </p>
+                  <hr />
+                  <p>
+                    Double Majors Involving Computer Science <span><i class="bi bi-caret-down"></i></span>
+                  </p>
+                  <hr />
+                  <p>
+                    Honors Program <span><i class="bi bi-caret-down"></i></span>
+                  </p>
+                  <hr />
+                  <p>
+                    CS Undergraduate Handbook <span><i class="bi bi-caret-down"></i></span>
+                  </p>
+                  <hr />
+                  
+               </div>
 
-                <li class="resource-item">
-                    <img src="books.jpg" alt="Books" class="resource-image" />
-                    <p class="resource-title">Books</p>
-                    <ul>
-                    <li>Introduction to Computer Science</li>
-                    <li>Data Structures and Algorithms</li>
-                    </ul>
-                </li>
+               <div>
+                <h1>Graduate Reaources</h1>
+                <p>
+                    MS-Computer Science <span><i class="bi bi-caret-down"></i></span>
+                </p>
+                <hr />
+                <p>
+                    Curriculum <span><i class="bi bi-caret-down"></i></span>
+                </p>
+                <hr />
+                <p>
+                    Research Areas <span><i class="bi bi-caret-down"></i></span>
+                </p>
+                <hr />
+                <p>
+                    Capstone Projects and Theses <span><i class="bi bi-caret-down"></i></span>
+                </p>
 
-                <li class="resource-item">
-                    <img src="tutorials.jpg" alt="Online Tutorials" class="resource-image" />
-                    <p class="resource-title">Online Tutorials</p>
-                    <ul>
-                    <li><a href="https://www.exampletutorial1.com" target="_blank">Example Tutorial 1</a></li>
-                    <li><a href="https://www.exampletutorial2.com" target="_blank">Example Tutorial 2</a></li>
-                    </ul>
-                </li>
-                </ul>
+                <hr />
+                <p>
+                  Graduate Handbook  <span><i class="bi bi-caret-down"></i></span>
+                </p>
+                <hr />
+                <p>
+                    Advanced Certificate in Big data Analytics <span><i class="bi bi-caret-down"></i></span>
+                </p>
+                <hr />
+               
+               </div>
+
+               <div>
+                <h1>Study Abroad Information</h1>
+                <p>
+                    Study Abroad Programs-Overview <span><i class="bi bi-caret-down"></i></span>
+                </p>
+                <hr />
+                <p>
+                    How To Apply <span><i class="bi bi-caret-down"></i></span>
+                </p>
+                <hr />
+                <p>
+                    Travel Advice <span><i class="bi bi-caret-down"></i></span>
+                </p>
+                <hr />
+                <p>
+                    Useful Links <span><i class="bi bi-caret-down"></i></span>
+                </p>
+               </div>
             </div>
 
             <div>

@@ -1,5 +1,3 @@
-# DCIT_205_IA
-// https://www.hackerrank.com/challenges/dcit-205-ia/problem?utm_camp
 
 # Computer Science Department Website
 
@@ -81,6 +79,9 @@ To clone and set up the project, follow these steps:
 ![Website Screenshot](/dcit_205_ia/src/images/cataloShot-4.JPG)
 
 <h2>Resources Page</h2>
+
+![Website Screenshot](/dcit_205_ia/src/images/resource1.JPG)
+![Website Screenshot](/dcit_205_ia/src/images/resource2.JPG)
 
 
 
