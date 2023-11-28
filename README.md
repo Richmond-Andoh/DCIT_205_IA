@@ -127,7 +127,7 @@ To clone and set up the project, follow these steps:
 
 ![Website Screenshot](/dcit_205_ia/src/images/gallery1.JPG)
 
-## Contributing 
+## Contribution
 
 1. Make sure you pull the latest changes from the main repository before starting any new task.
 
@@ -143,4 +143,4 @@ To clone and set up the project, follow these steps:
    git commit -m "commit message"
    git push origin your-branch-name
 ```
-### All contributions and pull request all always welcome
+### All contributions and pull requests all always welcome
