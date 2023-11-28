@@ -53,7 +53,7 @@ To clone and set up the project, follow these steps:
 <h2>Home Page</h2>
 <img src"dcit_205_ia/src/images/home.jpg">
 ![Website Screenshot]("dcit_205_ia/src/images/homeShot-1.jpg")
-![Website Screenshot](/dcit_205_ia/src/images/homeShot-2.JPG)
+![Website Screenshot](dcit_205_ia/src/images/homeShot-2.JPG)
 ![Website Screenshot](/dcit_205_ia/src/images/homeShot-3.JPG)
 ![Website Screenshot](/dcit_205_ia/src/images/homeShot-4.jpg)
 ![Website Screenshot](/dcit_205_ia/src/images/homeShot-5.jpg)
