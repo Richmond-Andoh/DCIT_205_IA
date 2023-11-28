@@ -94,8 +94,8 @@ To clone and set up the project, follow these steps:
 ![Website Screenshot](/dcit_205_ia/src/images/faq1.JPG)
 
 <h2>Gallery Page</h2>
-![Website Screenshot](/dcit_205_ia/src/images/gallery.JPG)
-![Website Screenshot](/dcit_205_ia/src/images/gallery1.JPG)
+![Website Screenshot]("/dcit_205_ia/src/images/gallery.JPG")
+![Website Screenshot]("/dcit_205_ia/src/images/gallery1.JPG")
 
 
 
