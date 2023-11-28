@@ -11,7 +11,7 @@ const Catalog = () => {
                 <Navbar />
             </div>
             
-    <div class="hero-session">
+    <div className="hero-session">
       <h1>CATALOG</h1>
     </div>
     {/* <div class="container introduction">
@@ -48,68 +48,85 @@ const Catalog = () => {
       </div>
     </div> */}
 
-    <div class="container-fluid">
+    <div className="container-fluid">
       <h1 className='short-courses-title'>Join Our Short Courses</h1>
 
-      <div class="container short-courses">
-        <div class="card">
+      <div className="container short-courses">
+        <div className="card">
           <img
             src="https://dcs.ug.edu.gh/img/short_courses_images/Web%20Dev.png"
             alt="Avatar"
             style={{width: "100%"}}
           />
-          <div class="content">
+          <div className="content">
             <h4><b> Introduction to Web Development </b></h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id odit
-              animi voluptates quo dicta deleniti quos voluptas, praesentium
-              omnis. Officia.
+              Web Development involves creating and maintaining 
+              websites and web applications, covering aspects such
+              as front-end design, back-end functionality.
             </p>
+            <p className="read-more">
+              Read More
+            </p>
+            <button type="submit">
+                ENROLL NOW!
+            </button>
           </div>
         </div>
-        <div class="card">
+        <div className="card">
           <img
             src="https://www.ivyzen.net/wp-content/uploads/2016/05/IT-1080x675.jpg"
             alt="Avatar"
             style={{width: "100%"}}
           />
-          <div class="content">
-            <h4><b> </b></h4>
-            {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id odit
-              animi voluptates quo dicta deleniti quos voluptas, praesentium
-              omnis. Officia.
-            </p> */}
+          <div className="content">
+            <h4><b>Machine Learning</b></h4>
+            <p>
+              Machine Learning is a subset of AI that 
+              empowers computers to learn from data, identify 
+              patterns, and make decisions without explicit programming, 
+            </p>
+            <p className="read-more">Read More</p>
+            <button type="submit">
+                ENROLL NOW!
+            </button>
           </div>
         </div>
-        <div class="card">
+        <div className="card">
           <img
             src="https://dcs.ug.edu.gh/img/mobile.png"
             alt="Avatar"
             style={{width: "100%"}}
           />
-          <div class="content">
+          <div className="content">
             <h4><b>Introduction To Mobile Application Developmentg</b></h4>
-            {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id odit
-              animi voluptates quo dicta deleniti quos voluptas, praesentium
-              omnis. Officia.
-            </p> */}
+            <p>
+              Mobile App Development is the process of designing and
+              creating applications for mobile devices.
+            </p>
+            <p className="read-more">Read More</p>
+            <button type="submit">
+                ENROLL NOW!
+            </button>
           </div>
         </div>
-        <div class="card">
+        <div className="card">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyN_7ViMFnePbbkyT0kb88nIDULt0FSGTeIiluwQOzTarxVqOymooZMG1l3WYleajjIeM&usqp=CAU"
             alt="Avatar"
             style={{width: "100%"}}
           />
-          <div class="content">
-            <h4><b> Artificial Intelligence $ Machine Learnin</b></h4>
+          <div className="content">
+            <h4><b>AI(Artificial Intelligence)</b></h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id odit
-              animi voluptates quo dicta deleniti quos voluptas, praesentium
-              omnis. Officia.
+              AI is a branch of computer science focused on creating systems 
+              that can perform tasks that typically require human intelligence.
             </p>
+            <p className="read-more">Read More</p>
+
+            <button type="submit">
+                ENROLL NOW!
+            </button>
           </div>
         </div>
       </div>
@@ -117,10 +134,10 @@ const Catalog = () => {
 
     {/* Course listing */}
 
-    <div class="container-fluid explore">
+    <div className="container-fluid explore">
       {/* (previous sections) */}
 
-      <section class="opportunities" id="research-opportunities">
+      <section className="opportunities" id="research-opportunities">
         <div>
           <h2>Research Opportunities</h2>
           <p>
@@ -150,7 +167,7 @@ const Catalog = () => {
         </div>
       </section>
       <hr />
-      <section class="internship" id="internship-and-job-placement">
+      <section className="internship" id="internship-and-job-placement">
         <div>
           <h2>Internship & Job Placement</h2>
           <p>
@@ -191,7 +208,7 @@ const Catalog = () => {
       {/* <!-- ... (remaining sections) ... --> */}
     </div>
 
-    <div class="container-fluid">
+    <div className="container-fluid">
       <h1 className='short-courses-title'>Explore Most Of Our Programmes</h1>
 
       <div class="container programs">
@@ -201,9 +218,7 @@ const Catalog = () => {
           </div>
           <div class="content">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id odit
-              animi voluptates quo dicta deleniti quos voluptas, praesentium
-              omnis. Officia.
+              Open the door to sought-after technology careers with a world class bachelor of sicence in computer sicence
             </p>
             <div className="btn">
               <button type="submit">
@@ -218,6 +233,9 @@ const Catalog = () => {
           </div>
           
           <div class="content">
+            <p>
+              Embrace world class graduate education with unique blend of cutting-edge research and industry experience
+            </p>
             <div className="btn">
               <button type="submit">
                 Apply Now!
@@ -230,6 +248,9 @@ const Catalog = () => {
             <h3>PHD PROGRAMMES</h3>
           </div>          
           <div class="content">
+            <p>
+              Our PHD's lead the effort extend the boundaries knowledge through quality and industry relevant research.
+            </p>
             <div className="btn">
               <button type="submit">
                 Apply Now!

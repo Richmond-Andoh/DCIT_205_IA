@@ -1,0 +1,100 @@
+
+
+.staff-session {
+    width: 100%;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    margin: auto;
+  }
+  
+  .staff-session::before {
+    content: "";
+    background-image: url("https://dcs.ug.edu.gh/img/gallery/g4.jpg");
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .staff-session h1 {
+    color: white;
+    text-align: center;
+    padding-top: 15rem;
+    font-size: 1.5rem;
+  }
+
+.profile {
+    text-align: center;
+    color: darkblue;
+    padding: 1em 0;
+    width: 100%;
+    padding: 2rem 5rem;
+  }
+
+  .profile h1 {
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  
+.staff-container {
+    opacity: 0.8;
+    opacity: 0.8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    margin: 3rem auto;
+  }
+
+  .staff-card {
+    width: 20%;
+    margin: 10px;
+    /* background-color: #fff; */
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+
+  .staff-avatar {
+    width: 100%;
+    max-height: 330px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .staff-details {
+    padding: 20px;
+  }
+
+  .staff-name {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .staff-position {
+    margin-bottom: 15px;
+  }
+
+  @media (max-width: 768px) {
+    .staff-container {
+        flex-direction: column;
+    }
+    .staff-card {
+      width: 100%;
+
+    }
+  }
+
+  .map-container {
+    width: 100%;
+    height: 650px;
+    z-index: 9999;
+}

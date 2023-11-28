@@ -61,7 +61,7 @@
     font-weight: bolder;
   }
   .short-courses .card {
-    color: #fff;
+    /* color: #fff; */
     opacity: 0.8;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -73,6 +73,32 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
   
+  .short-courses .card .content {
+    padding: 15px 6px;
+    text-align: center;
+  }
+
+  .short-courses .card .content h4 {
+    margin: 5px 0;
+  }
+  .short-courses .card .content .read-more{
+    color: darkblue;
+    margin-top: 10px;
+  }
+
+  .short-courses .card .content button {
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    color: #fff;
+    background-color: darkblue;
+    opacity: 0.8;
+
+  }
+
+  .short-courses .card .content .btn {
+    text-align: center;
+  }
   /* .short-courses .content {
     padding: 2px 16px;
   } */
@@ -143,10 +169,11 @@
   }
   
   .programs .card .content {
-    padding: 3rem 1.5rem;
+    padding: 3rem .5rem;
   }
 
   .programs .card .content button {
+    margin-top: 2rem;
     padding: 1rem 1.5rem;
     border: none;
     color: #fff;

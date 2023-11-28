@@ -1,0 +1,63 @@
+/* @import url("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
+@import url("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css");
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .carousel {
+    max-width: 100%;
+  }
+
+  .carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  } */
+
+  .gallery-container {
+    width: 100%;
+    background-color: darkblue;
+    padding: 150px 10px;
+}
+
+.gallery  {
+    text-align: start;
+    color: #fff;
+}
+
+.gallery h1 {
+    font-size: 2rem;
+    padding: 0 3rem;
+}
+
+.gallery p {
+    padding: 10px 3rem;
+    /* max-width: 400px; */
+    font-size: 20px;
+}
+
+.map-container {
+    width: 100%;
+    height: 650px;
+    z-index: 9999;
+}

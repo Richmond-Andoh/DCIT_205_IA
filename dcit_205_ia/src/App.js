@@ -8,6 +8,8 @@ import Resources from './routes/Resources';
 import Contact from './routes/Contact';
 import StudentProjects from './routes/StudentProjects';
 import StaffProfile from './routes/StaffProfile';
+import Faqs from './routes/Faqs';
+import Gallery from './routes/Gallery'
 
 function App() {
   return (
@@ -20,10 +22,8 @@ function App() {
         <Route path='contact' element={<Contact />} />
         <Route path='student-projects' element={<StudentProjects />} />
         <Route path='staff-profile' element={<StaffProfile />} />
-
-
-
-
+        <Route path='faqs' element={<Faqs />} />
+        <Route path='gallery' element={<Gallery />} />
       </Routes>
   );
 }
