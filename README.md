@@ -52,7 +52,6 @@ To clone and set up the project, follow these steps:
 9. **Faqs**: Frequently Asked Questions about the department and its offerings.
 8. **Gallery**: Visual showcase of events, projects, and activities within the department.
 
-<p>Feel free to explore additional pages such as Student Projects, Staff Profiles, or any other page of your choice.</p>
 
 ## Screenshots
 <h2>Home Page</h2>
@@ -128,11 +127,20 @@ To clone and set up the project, follow these steps:
 
 ![Website Screenshot](/dcit_205_ia/src/images/gallery1.JPG)
 
+## Contributing 
 
+1. Make sure you pull the latest changes from the main repository before starting any new task.
 
+2. Create a branch to work on
 
+3. Commit all your workings and push to your remote repulsitory.
 
-
-
-
-
+4. Raise a pull request for your work to be reviewed before merging
+```
+   git checkout -b your-branch-name
+   # make some changes
+   git add .
+   git commit -m "commit message"
+   git push origin your-branch-name
+```
+### All contributions and pull request all always welcome
