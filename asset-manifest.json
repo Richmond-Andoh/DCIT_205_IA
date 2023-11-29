@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2c5bbd1.css",
+    "main.js": "/static/js/main.c240bb13.js",
+    "static/media/Organization.jpg": "/static/media/Organization.77880921e101978255ec.jpg",
+    "static/media/research.jpg": "/static/media/research.083b615fbbe5a3612773.jpg",
+    "static/media/Rich.jpg": "/static/media/Rich.8ffa140b5497ba869a67.jpg",
+    "static/media/project.jpg": "/static/media/project.79aaa63e6a7aff787a80.jpg",
+    "static/media/home.jpg": "/static/media/home.4a6f44831b9131b5fcd0.jpg",
+    "static/media/robot.jpeg": "/static/media/robot.bfe3e6c11b23a9143b10.jpeg",
+    "static/media/Distance.jpg": "/static/media/Distance.054320dac31069541fff.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.a2c5bbd1.css.map": "/static/css/main.a2c5bbd1.css.map",
+    "main.c240bb13.js.map": "/static/js/main.c240bb13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2c5bbd1.css",
+    "static/js/main.c240bb13.js"
+  ]
+}
